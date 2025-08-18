@@ -13,3 +13,4 @@ router.post('/make-admin', async (req, res) => {
 });
 
 export default router;
+

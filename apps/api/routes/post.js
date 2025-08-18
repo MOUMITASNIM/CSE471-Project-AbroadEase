@@ -38,3 +38,4 @@ router.delete('/:id', requireAuth, requireAdmin, async (req, res) => {
 });
 
 export default router;
+

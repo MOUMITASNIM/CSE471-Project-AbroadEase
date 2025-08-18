@@ -8,5 +8,4 @@ const postSchema = new Schema({
   tags: [String],
   author: { type: Schema.Types.ObjectId, ref: 'User' }
 }, { timestamps: true });
-
 export default mongoose.model('Post', postSchema);
